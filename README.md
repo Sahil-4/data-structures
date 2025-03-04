@@ -37,6 +37,11 @@
 
 2. String
 
+   - [Introduction](/String/INTRODUCTION.md)
+   - [String implementation header file](/String/string.h)
+   - [String features implementation](/String/string.c)
+   - [String implementation usage/test](/String/main.c)
+
 3. Linked List
 
    - [Introduction](/Linked%20List/INTRODUCTION.md)
