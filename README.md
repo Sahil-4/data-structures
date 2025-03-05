@@ -3,7 +3,7 @@
 1. Array
 2. String
 3. Linked List
-4. Stacs
+4. Stack
 5. Queue
 6. Dequeue
 7. Tree
@@ -52,7 +52,12 @@
    - [Doubly Circular Linked List implementation features file](/Linked%20List/Doubly%20and%20Circular%20Linked%20List/doubly_circular_list.c)
    - [Doubly Circular Linked List implementation test file](/Linked%20List/Doubly%20and%20Circular%20Linked%20List/main.c)
 
-4. Stacs
+4. Stack
+
+   - [Introduction](/Stack/INTRODUCTION.md)
+   - [Stack implementation header file](/Stack/stack.h)
+   - [Stack features implementation](/Stack/stack.c)
+   - [Stack implementation usage/test](/Stack/main.c)
 
 5. Queue
 
