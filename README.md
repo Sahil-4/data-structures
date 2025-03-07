@@ -59,9 +59,12 @@
    - [Stack features implementation](/Stack/stack.c)
    - [Stack implementation usage/test](/Stack/main.c)
 
-5. Queue
+5. Queue & Dequeue
 
-6. Dequeue
+   - [Introduction](/Queue/INTRODUCTION.md)
+   - [Queue implementation header file](/Queue/queue.h)
+   - [Queue features implementation](/Queue/queue.c)
+   - [Queue implementation usage/test](/Queue/main.c)
 
 7. Tree
 
