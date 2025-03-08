@@ -6,7 +6,7 @@
 4. Stack
 5. Queue
 6. Dequeue
-7. Tree
+7. Binary Tree
 8. Heap
 9. HashMap
 10. HashSet
@@ -66,7 +66,12 @@
    - [Queue features implementation](/Queue/queue.c)
    - [Queue implementation usage/test](/Queue/main.c)
 
-7. Tree
+6. Binary Tree
+
+   - [Introduction](/Tree/INTRODUCTION.md)
+   - [Queue implementation header file](/Tree/Binary%20Tree/binary_tree.h)
+   - [Queue features implementation](/Tree/Binary%20Tree/binary_tree.c)
+   - [Queue implementation usage/test](/Tree/Binary%20Tree/main.c)
 
 8. Heap
 
