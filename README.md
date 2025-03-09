@@ -69,9 +69,9 @@
 6. Binary Tree
 
    - [Introduction](/Tree/INTRODUCTION.md)
-   - [Queue implementation header file](/Tree/Binary%20Tree/binary_tree.h)
-   - [Queue features implementation](/Tree/Binary%20Tree/binary_tree.c)
-   - [Queue implementation usage/test](/Tree/Binary%20Tree/main.c)
+   - [Binary Tree implementation header file](/Tree/Binary%20Tree/binary_tree.h)
+   - [Binary Tree features implementation](/Tree/Binary%20Tree/binary_tree.c)
+   - [Binary Tree implementation usage/test](/Tree/Binary%20Tree/main.c)
 
 8. Heap
 
