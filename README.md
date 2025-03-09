@@ -6,7 +6,9 @@
 4. Stack
 5. Queue
 6. Dequeue
-7. Binary Tree
+7. Tree
+8. Binary Tree
+9. Binary Search Tree
 8. Heap
 9. HashMap
 10. HashSet
@@ -72,6 +74,13 @@
    - [Binary Tree implementation header file](/Tree/Binary%20Tree/binary_tree.h)
    - [Binary Tree features implementation](/Tree/Binary%20Tree/binary_tree.c)
    - [Binary Tree implementation usage/test](/Tree/Binary%20Tree/main.c)
+
+7. Binary Search Tree
+
+   - [Introduction](/Tree/INTRODUCTION.md)
+   - [Binary Search Tree implementation header file](/Tree/Binary%20Search%20Tree/binary_search_tree.h)
+   - [Binary Search Tree features implementation](/Tree/Binary%20Search%20Tree/binary_search_tree.c)
+   - [Binary Search Tree implementation usage/test](/Tree/Binary%20Search%20Tree/main.c)
 
 8. Heap
 
