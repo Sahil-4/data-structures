@@ -40,3 +40,44 @@
 ## Limitations
 
 - Searching for a specific element takes **O(N)** time in an unstructured queue, as elements must be checked sequentially.
+
+## Algorithms
+
+### Enqueue (Add an element to the rear)
+
+1. If the queue is full, return an overflow error.
+2. Create a new node with the given value.
+3. If the queue is empty:
+   - Set both front and rear to the new node.
+4. Else:
+   - Set the next pointer of the rear to the new node.
+   - Update rear to point to the new node.
+5. Increase the size of the queue.
+
+### Dequeue (Remove an element from the front)
+
+1. If the queue is empty, return an underflow error.
+2. Store the front node’s value.
+3. Update the front to point to the next node.
+4. If the queue becomes empty (front is null), set rear to null.
+5. Free the old front node.
+6. Decrease the size of the queue.
+
+### Peek Front (Get the front element)
+
+1. If the queue is empty, return an underflow error.
+2. Return the value of the front node.
+
+### Peek Rear (Get the rear element)
+
+1. If the queue is empty, return an underflow error.
+2. Return the value of the rear node.
+
+### isEmpty (Check if the queue is empty)
+
+1. Return true if the size of the queue is 0.
+2. Else, return false.
+
+### Size (Get the number of elements in the queue)
+
+1. Return the current size of the queue.
