@@ -31,3 +31,55 @@
 - **Fixed size**: Static stacks have a predetermined size, leading to potential overflow if the capacity is exceeded. Dynamic stacks (like in most programming languages) can grow as needed.
 - **Limited use cases**: Best suited for scenarios requiring reverse-order access, like recursion or backtracking.
 - **LIFO nature**: Access is restricted to the top element only — you cannot directly access elements deeper in the stack.
+
+## Algorithms
+
+### **Push Operation**
+
+**Algorithm:**
+
+1. Check if the stack is full.
+2. If full, print "Stack overflow" and exit.
+3. If not full, increment the stack pointer.
+4. Add the element at the position pointed by the stack pointer.
+
+**Time Complexity:** O(1)
+
+### **Pop Operation**
+
+**Algorithm:**
+
+1. Check if the stack is empty.
+2. If empty, print "Stack underflow" and exit.
+3. If not empty, access the element at the stack pointer.
+4. Decrement the stack pointer.
+5. Return the popped element.
+
+**Time Complexity:** O(1)
+
+### **Peek / Top Operation**
+
+**Algorithm:**
+
+1. Check if the stack is empty.
+2. If empty, print "Stack is empty" and exit.
+3. If not empty, return the element at the stack pointer.
+
+**Time Complexity:** O(1)
+
+### **IsEmpty Operation**
+
+**Algorithm:**
+
+1. If stack pointer is -1, return true (stack is empty).
+2. Otherwise, return false.
+
+**Time Complexity:** O(1)
+
+### **Size Operation**
+
+**Algorithm:**
+
+1. Return stack pointer + 1 as the current size of the stack.
+
+**Time Complexity:** O(1)
