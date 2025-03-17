@@ -75,3 +75,82 @@ A **tree** is a hierarchical, non-linear data structure composed of nodes connec
 3. **B-tree:** A self-balancing BST used in databases and file systems. It maintains sorted data and allows searches, sequential access, insertions, and deletions in O(log n) time.
 4. **B+ tree:** A variation of the B-tree where all records are stored in leaf nodes (data blocks) and internal nodes contain only keys. Used in databases to reduce disk access.
 5. **Segment tree:** Used for storing intervals or segments of data, supporting range queries like finding minimum, maximum, or sum over a range efficiently.
+
+## Algorithms
+
+### Binary Tree Insertion
+
+- If the tree is empty, create a new node.
+- If `value < root’s value`, insert into the left subtree.
+- If `value > root’s value`, insert into the right subtree.
+
+### Binary Tree Traversal
+
+- **In-order (LNR):** Left → Root → Right
+- **Pre-order (NLR):** Root → Left → Right
+- **Post-order (LRN):** Left → Right → Root
+- **Level-order:** Use a queue, process nodes level by level.
+
+### Search
+
+- If root is `NULL`, return `NULL`.
+- If `root’s value` matches the target, return `root`.
+- If `target < root’s value`, search in the left subtree.
+- If `target > root’s value`, search in the right subtree.
+
+### Deletion
+
+- If `value < root’s value`, recurse on the left subtree.
+- If `value > root’s value`, recurse on the right subtree.
+- If `value` matches:
+  - **Node with 0 or 1 child:** Replace node with child.
+  - **Node with 2 children:** Replace with in-order successor and delete successor.
+
+### Find Min/Max
+
+- **Find Min:** Traverse the leftmost path.
+- **Find Max:** Traverse the rightmost path.
+
+### Binary Search Tree Insertion
+
+- If tree is empty, create a new node.
+- If `value ≤ root’s value`, insert in the left subtree.
+- If `value > root’s value`, insert in the right subtree.
+
+### Find Predecessor
+
+- Start at root, traverse right from the left subtree.
+- If node’s left subtree exists, find the max in the left subtree.
+
+### Find Successor
+
+- Start at root, traverse left from the right subtree.
+- If node’s right subtree exists, find the min in the right subtree.
+
+### Convert to Balanced BST
+
+- Perform in-order traversal and store nodes in an array.
+- Recursively construct BST from a sorted array using the middle element as root.
+
+### AVL Tree Insertion
+
+1. Perform BST insertion.
+2. Update height.
+3. Calculate balance factor.
+4. Rotate if necessary:
+   - **Left-Left (LL) → Right Rotation**
+   - **Right-Right (RR) → Left Rotation**
+   - **Left-Right (LR) → Left Rotation + Right Rotation**
+   - **Right-Left (RL) → Right Rotation + Left Rotation**
+
+### AVL Tree Deletion
+
+1. Perform standard BST deletion.
+2. Update height.
+3. Calculate balance factor and perform rotations if necessary.
+4. **Balancing:**
+   - **Balance Factor:** `height(left subtree) - height(right subtree)`
+   - **Rotations:**
+     - **Left Rotation:** Moves right-heavy subtree up.
+     - **Right Rotation:** Moves left-heavy subtree up.
+5. **Find Min Node:** Traverse leftmost path.
